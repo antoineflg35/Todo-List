@@ -1,0 +1,3 @@
+CATEGORIES: category_code, name, status,
+PEUT AVOIR, 1N CATEGORIES, 11 TASKS
+TASKS: id, title, completion, status

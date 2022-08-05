@@ -14,6 +14,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+
+Route::get('/categories', [CategoryController::class, 'list']);
+
+Route::get('/categories/{id}', [CategoryController::class, 'item']);
+
+Route::get('/tasks', [TaskController::class, 'list']);
+
+Route::post('/tasks', [TaskController::class, 'store']);
+
+Route::get('/tasks/{id}', [TaskController::class, 'item']);
+
+Route::put('/tasks/{id}', [TaskController::class, 'editTask']);
+
+Route::patch('/tasks/{id}', [TaskController::class, 'editTask']);
+
+Route::delete('/tasks/{id}', [TaskController::class, 'delete']);

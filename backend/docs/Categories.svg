@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="342" height="120" view_box="0 0 342 120"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Fri, 22 Jul 2022 07:16:57</desc>
+
+<rect id="frame" x="0" y="0" width="342" height="120" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association PEUT AVOIR -->
+<line x1="55" y1="60" x2="178" y2="60" stroke="#7fbc41" stroke-width="2"/>
+<text x="106" y="77.0" fill="#c51b7d" font-family="Verdana" font-size="12">1,N</text>
+<line x1="294" y1="60" x2="178" y2="60" stroke="#7fbc41" stroke-width="2"/>
+<text x="229" y="77.0" fill="#c51b7d" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-PEUT AVOIR">
+	<path d="M 209 35 a 14 14 90 0 1 14 14 V 60 h -90 V 49 a 14 14 90 0 1 14 -14" fill="#b8e186" stroke="#b8e186" stroke-width="0"/>
+	<path d="M 223 60.0 v 11 a 14 14 90 0 1 -14 14 H 147 a 14 14 90 0 1 -14 -14 V 60.0 H 90" fill="#e6f5d0" stroke="#e6f5d0" stroke-width="0"/>
+	<rect x="133" y="35" width="90" height="50" fill="none" rx="14" stroke="#7fbc41" stroke-width="2"/>
+	<line x1="133" y1="60" x2="223" y2="60" stroke="#7fbc41" stroke-width="1"/>
+	<text x="140" y="52.7" fill="#000000" font-family="Verdana" font-size="12">PEUT AVOIR</text>
+</g>
+
+<!-- Entity TASKS -->
+<g id="entity-TASKS">
+	<g id="frame-TASKS">
+		<rect x="255" y="9" width="78" height="25" fill="#f1b6da" stroke="#f1b6da" stroke-width="0"/>
+		<rect x="255" y="34.0" width="78" height="77" fill="#fde0ef" stroke="#fde0ef" stroke-width="0"/>
+		<rect x="255" y="9" width="78" height="102" fill="none" stroke="#de77ae" stroke-width="2"/>
+		<line x1="255" y1="34" x2="333" y2="34" stroke="#de77ae" stroke-width="1"/>
+	</g>
+	<text x="273" y="26.7" fill="#000000" font-family="Verdana" font-size="12">TASKS</text>
+	<text x="260" y="51.7" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="260" y1="54" x2="272" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="260" y="68.8" fill="#000000" font-family="Verdana" font-size="12">title</text>
+	<text x="260" y="85.8" fill="#000000" font-family="Verdana" font-size="12">completion</text>
+	<text x="260" y="102.8" fill="#000000" font-family="Verdana" font-size="12">status</text>
+</g>
+
+<!-- Entity CATEGORIES -->
+<g id="entity-CATEGORIES">
+	<g id="frame-CATEGORIES">
+		<rect x="9" y="9" width="92" height="25" fill="#f1b6da" stroke="#f1b6da" stroke-width="0"/>
+		<rect x="9" y="34.0" width="92" height="77" fill="#fde0ef" stroke="#fde0ef" stroke-width="0"/>
+		<rect x="9" y="9" width="92" height="102" fill="none" stroke="#de77ae" stroke-width="2"/>
+		<line x1="9" y1="34" x2="101" y2="34" stroke="#de77ae" stroke-width="1"/>
+	</g>
+	<text x="14" y="26.7" fill="#000000" font-family="Verdana" font-size="12">CATEGORIES</text>
+	<text x="14" y="51.7" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="14" y1="54" x2="26" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="68.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<text x="14" y="85.8" fill="#000000" font-family="Verdana" font-size="12">status</text>
+</g>
+</svg>
